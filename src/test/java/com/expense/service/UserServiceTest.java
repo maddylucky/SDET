@@ -24,7 +24,7 @@ import com.expense.entity.User;
 import com.expense.entity.repository.UserRepository;
 import com.expense.service.impl.UserServiceImpl;
 
-@RunWith(MockitoJUnitRunner.class)
+@RunWith(MockitoJUnitRunner.Silent.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class UserServiceTest {
 
