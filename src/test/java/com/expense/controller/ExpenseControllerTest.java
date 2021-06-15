@@ -68,9 +68,9 @@ public class ExpenseControllerTest {
 //	  .andExpect(model().attribute("expeseList", Matchers.hasSize(1)))
 		;
 
-		resultAction = mockMvc.perform(get("/expense-list")).andExpect(status().isOk())
+//		resultAction = mockMvc.perform(get("/expense-list")).andExpect(status().isOk())
 //				.andExpect(view().name("expenseList.jsp")).andExpect(forwardedUrl("expenseList.jsp"))
-				.andExpect(model().attribute("expeseList", Matchers.hasSize(1)));
+//				.andExpect(model().attribute("expeseList", Matchers.hasSize(1)));
 	}
 	
 	
